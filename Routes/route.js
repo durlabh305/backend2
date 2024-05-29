@@ -7,7 +7,7 @@ const questionController = require('../Controller/Questioncontroller')
 
 router.post('/register', userController.register)
 router.post('/login', userController.login)
-router.get('/getAllUsers', userController.getAllUsers)
+// router.get('/getAllUsers', userController.getAllUsers)
 
 // QuestionAPI
 
